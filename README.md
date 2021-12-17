@@ -13,6 +13,8 @@ notifierWidget = NotifierWidget(informative_text: str, detailed_text: str) # Inf
 notifierWidget.addWidgets(widgets: list) # You can add some widgets at the bottom of the notifier. Note: This needs more tests.
 ```
 
+If you press the escape button, notifier window will be closed.
+
 ## Example
 ```python
 from PyQt5.QtWidgets import QApplication
