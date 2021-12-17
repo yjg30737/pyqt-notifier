@@ -9,10 +9,10 @@ PyQt5 >= 5.8
 
 ## Usage
 ```python
-notifierWidget = NotifierWidget(informative_text: str, detailed_text: str) 
 # Informative text is large text at upper part of the notifier window and detailed text is small text at lower part.  
-notifierWidget.addWidgets(widgets: list) 
+notifierWidget = NotifierWidget(informative_text: str, detailed_text: str)
 # You can add some widgets at the bottom of the notifier. Note: This needs more tests.
+notifierWidget.addWidgets(widgets: list) 
 ```
 
 If you press the escape button or click the exit button on the top right of the notifier window, notifier window will be closed.
