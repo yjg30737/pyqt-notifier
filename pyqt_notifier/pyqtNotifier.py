@@ -1,7 +1,6 @@
 from pyqt_resource_helper.pyqtResourceHelper import PyQtResourceHelper
 from PyQt5.QtGui import QFont
-from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout, QVBoxLayout, QDesktopWidget, \
-    QApplication, QSizePolicy
+from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout, QVBoxLayout, QDesktopWidget, QSizePolicy
 from PyQt5.QtCore import Qt, QPoint
 
 
