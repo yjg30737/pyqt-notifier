@@ -61,9 +61,9 @@ class NotifierWidget(QWidget):
 
         return super().keyPressEvent(e)
 
-    def addWidgets(self, btns: list):
-        for btn in btns:
-            btn.setSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
-            self.__btnWidget.layout().addWidget(btn)
+    def addWidgets(self, widgets: list):
+        for widget in widgets:
+            widget.setSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
+            self.__btnWidget.layout().addWidget(widget)
 
 
