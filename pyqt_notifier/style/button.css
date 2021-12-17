@@ -1,0 +1,21 @@
+QPushButton 
+{
+border:0; 
+background:transparent;
+padding:1px;
+}
+QPushButton:hover
+{
+background-color:#666666;
+border-radius: 2px;
+}
+QPushButton:pressed
+{
+background-color:#222222;
+border-radius: 2px;
+}
+QPushButton:checked
+{
+background-color: #333333;
+border: none;
+}
