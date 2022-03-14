@@ -1,1 +1,1 @@
-git+https://git@github.com/yjg30737/pyqt-resource-helper.git@main
+git+https://git@github.com/yjg30737/pyqt-svg-icon-pushbutton.git@main

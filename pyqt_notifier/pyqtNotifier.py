@@ -1,7 +1,7 @@
-from pyqt_resource_helper.pyqtResourceHelper import PyQtResourceHelper
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout, QVBoxLayout, QDesktopWidget, QSizePolicy
 from PyQt5.QtCore import Qt, QPoint
+from pyqt_svg_icon_pushbutton import SvgIconPushButton
 
 
 class NotifierWidget(QWidget):
@@ -17,11 +17,9 @@ class NotifierWidget(QWidget):
         self.__informativeTextLabel.setFont(QFont('Arial', 15, QFont.Bold))
         self.__detailedTextLabel = QLabel(detailed_text) if detailed_text else QLabel('Detailed')
 
-        closeBtn = QPushButton()
+        closeBtn = SvgIconPushButton()
         closeBtn.clicked.connect(self.close)
-
-        PyQtResourceHelper.setIcon([closeBtn], ['ico/close.png'])
-        PyQtResourceHelper.setStyleSheet([closeBtn], ['style/button.css'])
+        closeBtn.setIcon('ico/close.svg')
 
         lay = QHBoxLayout()
         lay.setContentsMargins(0, 0, 0, 0)
