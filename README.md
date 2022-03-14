@@ -5,7 +5,7 @@ PyQt Windows notifier show at bottom right of the desktop screen
 PyQt5 >= 5.8
 
 ## Included package
-* <a href="https://github.com/yjg30737/pyqt-resource-helper.git">pyqt-resource-helper</a>
+* <a href="https://github.com/yjg30737/pyqt-svg-icon-pushbutton.git">pyqt-svg-icon-pushbutton</a>
 
 ## Usage
 ```python
