@@ -5,7 +5,7 @@ PyQt Windows notifier show at bottom right of the desktop screen
 PyQt5 >= 5.8
 
 ## Included package
-* <a href="https://github.com/yjg30737/pyqt-svg-icon-pushbutton.git">pyqt-svg-icon-pushbutton</a>
+* <a href="https://github.com/yjg30737/pyqt-svg-icon-pushbutton.git">pyqt-svg-icon-pushbutton</a> - For svg icon close button
 
 ## Usage
 ```python
@@ -33,4 +33,4 @@ if __name__ == "__main__":
 
 Result
 
-![image](https://user-images.githubusercontent.com/55078043/146488175-1041ade0-4263-4f2c-a208-fa6105f73ec2.png)
+![image](https://user-images.githubusercontent.com/55078043/158148559-8a159186-da37-4cd7-af37-d26c3f30e79f.png)
