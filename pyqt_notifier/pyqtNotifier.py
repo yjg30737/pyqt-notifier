@@ -1,5 +1,5 @@
 from PyQt5.QtGui import QFont
-from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout, QVBoxLayout, QDesktopWidget, QSizePolicy
+from PyQt5.QtWidgets import QWidget, QLabel, QHBoxLayout, QVBoxLayout, QDesktopWidget, QSizePolicy
 from PyQt5.QtCore import Qt, QPoint
 from pyqt_svg_icon_pushbutton import SvgIconPushButton
 
