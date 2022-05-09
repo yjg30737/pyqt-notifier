@@ -7,6 +7,9 @@ PyQt5 >= 5.8
 ## Included package
 * <a href="https://github.com/yjg30737/pyqt-svg-icon-pushbutton.git">pyqt-svg-icon-pushbutton</a> - For svg icon close button
 
+## Setup
+`python -m pip install pyqt-notifier`
+
 ## Usage
 ```python
 # Informative text is large text at upper part of the notifier window and detailed text is small text at lower part.  
