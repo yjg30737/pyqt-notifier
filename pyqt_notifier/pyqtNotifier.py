@@ -1,5 +1,5 @@
 from PyQt5.QtGui import QFont
-from PyQt5.QtWidgets import QWidget, QLabel, QHBoxLayout, QVBoxLayout, QDesktopWidget, QSizePolicy
+from PyQt5.QtWidgets import QWidget, QLabel, QHBoxLayout, QVBoxLayout, QDesktopWidget, QSizePolicy, qApp
 from PyQt5.QtCore import Qt, QPoint
 from pyqt_svg_button import SvgButton
 
@@ -63,4 +63,6 @@ class NotifierWidget(QWidget):
             widget.setSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
             self.__btnWidget.layout().addWidget(widget)
 
-
+    def show(self) -> None:
+        super().show()
+        qApp.beep()
