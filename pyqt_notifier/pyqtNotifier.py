@@ -11,7 +11,7 @@ class NotifierWidget(QWidget):
 
     def __initUi(self, informative_text='', detailed_text=''):
         self.setFixedSize(250, 150)
-        self.setWindowFlags(Qt.FramelessWindowHint)
+        self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.SubWindow)
 
         self.__informativeTextLabel = QLabel(informative_text) if informative_text else QLabel('Informative')
         self.__informativeTextLabel.setFont(QFont('Arial', 15, QFont.Bold))
